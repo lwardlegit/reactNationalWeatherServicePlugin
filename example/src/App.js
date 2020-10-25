@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'weatheralert'
+import  WeatherAlert from 'weatheralert'
 import 'weatheralert/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <WeatherAlert lat="35.595058" lon="-82.551491" />
 }
 
 export default App

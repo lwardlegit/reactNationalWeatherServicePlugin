@@ -7,3 +7,10 @@
   font-size: 2em;
   text-align: center;
 }
+.container{
+  margin: 1em;
+  background-color: rgb(169, 213, 241);
+}
+.container p{
+  padding: .5em;
+}
