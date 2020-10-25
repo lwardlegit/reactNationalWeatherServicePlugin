@@ -20,7 +20,7 @@ import 'weatheralert/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <WeatherAlert />
+    return <WeatherAlert lat={your latitude} lon={your longitude} />
   }
 }
 ```
