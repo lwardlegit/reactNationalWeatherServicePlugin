@@ -15,12 +15,12 @@ npm install --save weatheralert
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'weatheralert'
+import WeatherAlert from 'weatheralert'
 import 'weatheralert/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <WeatherAlert />
   }
 }
 ```
